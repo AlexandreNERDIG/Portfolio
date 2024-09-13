@@ -1,0 +1,131 @@
+.globalSectionProject {
+    max-width: 1200px;
+    height: auto;
+    margin: 1rem auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 3rem;
+}
+
+.leftSection {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 45%;
+    color: white;
+}
+
+.pageNum {
+    font-size: 5rem;
+    font-weight: 700;
+    -webkit-text-stroke: 2px white;
+    -webkit-text-fill-color: transparent;
+}
+
+.projectName {
+    font-size: 2.5rem;
+    font-weight: 600;
+    margin-top: -0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.projectDescription {
+    margin-bottom: 1rem;
+    color: #ccc;
+    font-size: 0.9rem;
+    line-height: 1.8;
+}
+
+.projectCategorie {
+    color: #3580e3;
+    font-weight: 600;
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+    padding: 0.5rem 0rem;
+}
+
+.horizontalBar {
+    border-bottom: 2px solid white;
+}
+
+.icons {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.Icon {
+    position: relative;
+    border: 1px solid #ccc;
+    border-radius: 5rem;
+    padding: 0.55rem 0.75rem;
+    background: linear-gradient(135deg, #3a3a3e, #27272b);
+    cursor: pointer;
+    transition: 0.3s all ease;
+}
+
+.Icon a {
+    color: #fff;
+    position: relative;
+    top: 3px;
+}
+
+.Icon:hover {
+    transform: scale(1.08);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4); 
+}
+
+.rightSection {
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    flex-wrap: wrap;
+    width: 45%;
+    max-height: 650px;
+}
+
+.projectImage {
+    width: 100%;
+    height: 400px;
+}
+
+.projectImage img {
+    width: 100%; 
+    height: 100%; 
+    object-fit: cover; 
+}
+
+.buttons {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 1rem;
+}
+
+.button {
+    margin-top: 0.75rem;
+    background-color: #3580e3;
+    padding: 0.25rem 0.5rem;
+    cursor: pointer;
+}
+
+.button p {
+    position: relative;
+    top: 3px;
+}
+
+
+
+
+
+
+
+
+
+
+

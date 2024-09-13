@@ -1,0 +1,173 @@
+.globalSection{
+    max-width: 1200px;
+    margin: 0.5rem auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 1rem 0rem;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    color: #fff;
+}
+
+.MailForm {
+    border: 2px solid #3a3a3e;
+    height: auto;
+    width: 40%;
+    background: linear-gradient(135deg, #3a3a3e, #27272b);
+    padding: 1rem 2rem;
+    border-radius: 16px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4);
+}
+
+.MailForm h3 {
+    color: #ddc;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.MailForm h1 {
+    color: #fff;
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.form {
+    width: 100%; 
+    box-sizing: border-box; 
+}
+
+.formField {
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    padding: 1rem 0;
+    width: 100%; 
+    box-sizing: border-box;
+}
+
+.formField textarea {
+    color: white;
+    font-size: 1rem;
+    border-radius: 6px;
+    padding: 0.4rem 0.5rem 0.6rem 0.5rem;
+    background-color: #262629;
+    width: 100%;
+    box-sizing: border-box;
+    resize: none;
+}
+
+.formField label {
+    font-weight: 600;
+    font-size: 1.1rem;
+}
+
+.formField .MessageField {
+    color: white;
+    border-radius: 4px;
+    padding: 0.4rem 0.5rem 3.6rem 0.5rem;
+    background-color: #262629;
+    width: 100%;
+}
+
+.sendButton {
+    display: flex;
+    justify-content: center;
+}
+
+.sendButton input {
+    padding: 0.5rem 1.5rem;
+    background-color: #1d4e8d;
+    border: none;
+    border-radius: 4.5px;
+    color: #fff;
+    cursor: pointer;
+    margin-bottom: 1rem;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.4); 
+    transition: 0.3s all ease;
+}
+
+.sendButton input:hover {
+    background-color: #0a2548;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4); 
+    transform: scale(1.05); 
+}
+
+.contactSection {
+    margin: 2rem auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+    padding: 1rem 0rem;
+    flex-wrap: wrap;
+    color: #fff;
+}
+
+.sectionHeader {
+    margin: auto;
+    width: 630px;
+    display: flex;
+    justify-content: center; 
+}
+
+.subSection {
+    text-align: center;
+    height: 150px;
+    width: 275px;
+    border-radius: 10px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+    background: linear-gradient(135deg, #3a3a3e, #27272b);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.subSection:hover {
+    transform: translateY(-5px); 
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.5);
+}
+
+.iconContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.75rem;
+    padding: 0.5rem 0;
+    background-color: #1d4e8d;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px; 
+    margin-bottom: 1rem;
+}
+
+.sectionInfo span {
+    color: #d22111;
+}
+
+.subSection p {
+    margin: 1.2rem 1rem 0.5rem;
+    color: #ccc;
+    font-size: 1.1rem;
+    line-height: 1.5;
+}
+
+.copyButton input {
+    padding: 0.5rem 1.5rem;
+    background-color: #1d4e8d;
+    border: none;
+    border-radius: 4.5px;
+    color: #fff;
+    cursor: pointer;
+    margin-bottom: 1rem;
+    font-size: 1rem;
+    font-weight: 600;
+    transition: 0.3s all ease;
+}
+
+.copyButton input:hover {
+    background-color: #0a2548;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4); 
+    transform: scale(1.05); 
+}

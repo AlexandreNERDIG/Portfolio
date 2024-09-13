@@ -1,0 +1,232 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 3rem;
+  color: rgb(225, 225, 225);
+}
+
+.WholePage {
+  width: 100%;
+  margin: none;
+}
+
+.mainContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.headerContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.headerContainer h1 {
+  display: flex;
+  justify-content: center;
+}
+
+.headerContainer p {
+  margin-top: -1.5rem;
+  display: flex;
+  justify-content: center;
+}
+
+.darkButton {
+  position: absolute;
+  right: 500px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+}
+
+.darkmode {
+  background-color: black;
+  border-radius: 100%;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.colorStand {
+  width: 450px;
+  height: 175px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border: 2px solid rgb(255, 255, 255);
+  font-weight: 600;
+  font-size: 1.1rem;
+}
+
+.subContent {
+  margin-top: -1.5rem;
+}
+
+.ChangeBase {
+  position: absolute;
+  margin-top: 8rem;
+}
+
+.ChangeBase input {
+  border: 3px solid rgba(27, 27, 27, 0.51);
+  border-radius: 4px;
+  background-color:darksalmon;
+  padding: 0.45rem 1rem;
+  cursor: pointer;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 7.5rem;
+}
+
+.buttons input {
+  padding: 1rem 2rem;
+  cursor: pointer;
+  border: 3px solid rgba(0, 0, 0, 0.502);
+}
+
+.Generate {
+  background-color: skyblue;
+}
+
+.SaveColor {
+  background-color: rgb(149, 208, 62);
+}
+
+.Container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.subContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20rem;
+}
+
+.subContainer p {
+  font-weight: bold;
+}
+
+.subContainer div {
+  position: absolute;
+  left: 47.3%;
+}
+
+.subContainer input {
+  padding: 0.35rem 0.75rem;
+  background-color: rgba(205, 205, 205, 0.8);
+  cursor: pointer;
+}
+
+.lastContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.savedList {
+  border: 2px solid white;
+  width: 700px;
+  height: 175px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(49, 49, 53);
+}
+
+.savedList p {
+  font-weight: 600;
+  font-size: 1.1rem;
+  margin: 0;
+  color: bisque;
+}
+
+.ResetButtun {
+  padding: 0.30rem 1rem;
+  background-color: bisque;
+  border: 3px solid rgba(0, 0, 0, 0.502);
+  text-align: center;
+  position: relative;
+  bottom: -2.5rem;
+}
+
+.GaleryButtun {
+  position: relative;
+  top: 15px;
+  padding: 1rem 2rem;
+  border: 2px solid rgba(255, 255, 255, 0.5);
+  background-color: rgb(69, 69, 73);
+  color: bisque;
+  font-size: 0.9rem;
+  font-weight: 550;
+}
+
+.galery {
+  margin: 0 auto;
+  width: 500px;
+  height: 250px;
+  background-color: rgb(49, 49, 53);
+  border: 2px solid white;
+  padding: 1rem;
+  color: rgb(225, 225, 225);
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+  overflow: auto;
+}
+
+.SavedColor {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 0.5rem;
+  border-radius: 5px;
+  background-color: rgb(69, 69, 73);
+}
+
+.colorBlock {
+  width: 75%;
+  height: 50px;
+}
+
+.Display {
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  background-color: rgb(49, 49, 53);
+  color: white;
+  transition: 0.3s ease all;
+}
+
+.Display:hover {
+  background-color: rgb(25, 25, 25);
+}
